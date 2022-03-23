@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head> 
+	<meta charset="UTF-8"/>
+	<title> Pedra Papel Tesoura </title>	
+	<link rel="stylesheet" type="text/css" href="_css/estilo.css"/>
+</head>
+
+<script language="javascript" src="_javascript/funcoes.js"> </script> 
+
+<body>
+
+<div id="interface">
+	
+<header id="cabecalho">
+	<hgroup>
+	<h1> Vamos jogar! </h1>
+	<h2> Topa uma partida de pedra papel e tesoura? </h2>
+	</hgroup>	
+</header>	
+
+<section id="corpo"> 
+	<article id="Regras">
+	<header id="Regras-jogo"> 
+		<hgroup>
+		<h1> Vamos as regras do jogo! </h1>
+		</hgroup>
+		<p> É um jogo muito simples, você apenas precisará escolher entre pedra, papel e tesoura. </p>
+		<img id="escolhas" src="_imagens/escolhas.jpg"/>
+		<p> Depois vamos aos possiveis resultados: </p>
+		<img id ="icone" src="_imagens/pedra_papel_tesoura.jpg"/>
+		<table id="tabelaespc">
+			<tr><td class="ce">Pedra</td> <td class="cd">Ganha da tesoura e perde do papel</td></tr>
+			<tr><td class="ce">Papel</td> <td class="cd">Ganha da pedra e perde da tesoura </td></tr>
+			<tr><td class="ce">Tesoura</td> <td class="cd">Ganha do papel e perde da pedra</td></tr>
+		</table>
+		<h1> Agora vamos jogar! </h1>
+		<img id ="seta" src="_imagens/seta.png"/>
+	</header>
+	</article>
+</section>
+
+<aside id="lateral"> 
+	<h1>Escolha sabiamente!</h1>
+	<form method="post" oninput="jokenpo();">
+		<p><label for="cEscolha"> Eu escolho: </label>
+			<select name="tEscolha" id="cEscolha">    	
+					<option value="1">Pedra</option>
+					<option value="2">Papel</option>
+					<option value="3">Tesoura</option>				
+			</select></p>
+	</form>
+	<input type="text" name="tEscolha-usuario" id="cEscolha-usuario" placeholder="Resultado" readonly /></p>
+</aside>
+
+
+
+
+<footer id="rodape">
+	<p>Copyright &copy; 2022 - by Gabriela Maria Rocha Bolaina <br/>
+	<a href="https://www.facebook.com/gabi.bolaina" target="_blank"> Facebook </a>  | 
+	<a href="https://www.instagram.com/gabibolaina/?hl=pt" target="_blank"> Instagram </a> </p>   
+</footer>
+
+</div>
+</body>
+</html>

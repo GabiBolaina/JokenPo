@@ -1,0 +1,179 @@
+@charset "UTF-8";
+
+/* área de fontes */
+
+	body{
+		font-family: Arial, sans-serif;
+		background-color: #dddddd;
+		color: rgba(0,0,0,1);			
+	}
+	
+	div#interface {
+		width: 1050px;
+		height: auto;
+		background-color: #ffffff;
+		margin: -20px auto 0px auto;
+		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+		padding: 20px;	
+	}
+
+	section#corpo {
+		display: block;
+		width: 500px;
+		float: left;
+		padding: 10px;
+		border-right: 1px solid black;
+	}
+
+	aside#lateral {
+		display: block;
+		width: 500px;
+		float: right;
+		padding: 10px;
+	}
+	
+	/* Cabeçalho */
+
+	header#cabecalho {
+		border-bottom: 1px black solid;		
+	}
+	
+	header#cabecalho h1 {
+		font-family: Arial, sans-serif;
+		font-size: 30pt;
+		color: black;	
+		text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+		padding: 0px;
+		margin-bottom: 0px;		
+		}
+	
+	header#cabecalho h2 {
+		font-family: Arial, sans-serif;
+		font-size: 20pt;
+		color: black;	
+		padding: 0px;	
+		margin-top: 0px;
+	}
+
+	/*Fim cabeçalho */
+
+	/*Corpo */
+		
+	section#corpo h1{
+		font-family: Arial, sans-serif;
+		font-size: 20pt;
+		color: black;	
+		text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+		padding: 0px;
+		margin-bottom: 0px;	
+	}
+
+	section#corpo p{
+		font-family: Arial, sans-serif;
+		text-align: justify; 
+		text-indent: 15px;
+		margin-top: 5px;
+		font-size: 20pt;
+	}
+
+	section#corpo img{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		width: 400px;
+		height: 300px;
+	}
+
+	/* tabela */
+	table#tabelaespc{
+		border: 1px solid black;
+		border-spacing: 0px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	table#tabelaespc td{
+		border: 1px solid black;
+		padding: 10px;
+		text-align: center;
+		vertical-align: middle;
+	}
+
+	table#tabelaespc td.ce{
+		color: black;;
+		vertical-align: top;
+		font-weight: bold;
+		font-family: Arial, sans-serif;
+		font-size: 20pt;
+	}
+
+	table#tabelaespc td.cd{
+		color: black;;
+		vertical-align: top;
+		font-family: Arial, sans-serif;
+		font-size: 20pt;
+	}
+
+	/* fim tabela */
+
+	/*Fim corpo */
+	
+	/*lateral  / aside */
+	
+	aside#lateral h1 {
+		font-family: Arial, sans-serif;
+		font-size: 30pt;
+		color: black;	
+		text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+		padding: 0px;
+		margin-bottom: 0px;	
+	}
+
+	form {
+		width: auto;
+		margin: auto;
+	}
+
+	select {
+		font-family: sans-serif;
+		font-weight: normal;
+		font-size: 20pt;
+	}
+
+	aside#lateral p{
+		font-family: Arial, sans-serif;
+		text-align: justify; 
+		text-indent: 15px;
+		margin-top: 20px;
+		font-size: 20pt;
+	}
+
+	/*fim lateral / aside */
+
+	/* Rodapé */
+
+	footer#rodape {
+		clear: both; /* Limpa a configuração do section e do aside, mostra o rodapé fora da divisão */
+		border-top: 1px solid #606060;	
+	}
+
+	footer#rodape p {
+		text-align: center;
+	}
+
+	/*Fim rodapé */
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
