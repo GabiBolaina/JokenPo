@@ -3,3 +3,7 @@
 Criação do site em HTML5 e CSS3.
  Ainda não está finalizando. 
  Para acessar o site baixa bastar e acessar o index.html.
+
+24/03/2022
+
+Jogo funcionando, espero que gostem!
