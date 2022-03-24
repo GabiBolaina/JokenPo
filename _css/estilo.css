@@ -9,7 +9,7 @@
 	}
 	
 	div#interface {
-		width: 1050px;
+		width: auto;
 		height: auto;
 		background-color: #ffffff;
 		margin: -20px auto 0px auto;
@@ -19,7 +19,7 @@
 
 	section#corpo {
 		display: block;
-		width: 500px;
+		width: 45%;
 		float: left;
 		padding: 10px;
 		border-right: 1px solid black;
@@ -27,7 +27,7 @@
 
 	aside#lateral {
 		display: block;
-		width: 500px;
+		width: 45%;
 		float: right;
 		padding: 10px;
 	}
@@ -149,6 +149,7 @@
 		margin-top: 20px;
 		font-size: 20pt;
 	}
+	
 
 	/*fim lateral / aside */
 
